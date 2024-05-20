@@ -14,8 +14,8 @@ HELP_BUTTON = [
       Button.inline("★𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦★", data="extra")
     ],
     [
-      Button.url("★𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥★", "https://t.me/OXEGN"),
-      Button.url("★𝗦𝗨𝗣𝗣𝗢𝗥𝗧★", "https://t.me/+XpL0qhdF7TQzNDVl")
+      Button.url("★𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥★", "@II_ADI_II"),
+      Button.url("★𝗦𝗨𝗣𝗣𝗢𝗥𝗧★", "https://t.me/II_VIP_FUCKER_II")
     ],
   [   
       Button.inline("★𝗡𝗘𝗪 𝗖𝗢𝗠𝗠𝗔𝗡𝗗★", data="yash")
@@ -38,7 +38,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://telegra.ph/file/b11e7d86e4622a3b3e54e.jpg",
+              "https://telegra.ph/file/2b8aef5d66132d0bd11c6.jpg",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
